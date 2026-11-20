@@ -5,6 +5,13 @@
   "description": "Free checklists, diligence and judgment-interest tools for charged-off debt. Aggregate inputs only.",
   "version": "0.2.0",
   "websiteUrl": "https://donofdebt.com",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/donofdebt/donofdebt-mcp/main/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
   "repository": {
     "url": "https://github.com/donofdebt/donofdebt-mcp",
     "source": "github"

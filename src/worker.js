@@ -784,10 +784,13 @@ ${sec}
 }
 
 // Official MCP Registry HTTP domain proof for com.donofdebt/* (public key only).
+// Glama connector claim for https://donofdebt.com/mcp (public token, must stay published).
+const GLAMA_CONNECTOR_CLAIM = { $schema: "https://glama.ai/mcp/schemas/connector.json", claim: "glama_claim_i0alkFuxuIKn096BGRQ7Bv4uc_mo0hg-" };
 const MCP_REGISTRY_AUTH = "v=MCPv1; k=ed25519; p=A4I7vCBzz7q+pQAornapXsGwDn7I3MkAKP6zcQzYkr0=";
 
 async function route(request, env, path, origin) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: BASE_HEADERS });
+  if (path === "/mcp/.well-known/glama.json" && (request.method === "GET" || request.method === "HEAD")) return json(GLAMA_CONNECTOR_CLAIM);
   if (path === "/mcp" || path.startsWith("/api/")) {
     if (env && env.RL && request.method === "POST") {
       try { const { success } = await env.RL.limit({ key: request.headers.get("cf-connecting-ip") || "anon" }); if (!success) return json({ error: "rate_limited", message: "Too many requests. Try again in a minute." }, 429, { "Retry-After": "60" }); } catch (_) { /* fail open */ }

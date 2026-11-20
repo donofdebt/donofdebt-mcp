@@ -106,6 +106,14 @@ curl -s https://donofdebt.com/mcp -H 'content-type: application/json' -H 'accept
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"diligence_checklist","arguments":{"side":"buyer"}}}'
 ```
 
+## Guides on donofdebt.com
+
+- [Debt for Sale](https://donofdebt.com/debt-for-sale): charged-off portfolio types, data tapes, and how a private introduction works.
+- [Credit Card Charge-Off Portfolios for Sale](https://donofdebt.com/credit-card-charge-off-portfolios-for-sale): who sells credit card paper, what affects the discount to face value, and what to request.
+- [Non-Performing Loan Portfolios](https://donofdebt.com/non-performing-loan-portfolios): non-performing vs. charged-off loans, common NPL portfolio types, and what buyers review.
+
+Jeffery Hartman, The Don of Debt, introduces qualified buyers and sellers of debt portfolios. He does not buy debt or act as a broker.
+
 ## Not legal, valuation, or compliance advice
 
 Every result is educational. It carries a disclaimer, a notice, its sources and an `as_of` date. Judgment-interest figures are illustrative estimates, not amounts owed. State facts and regulator links are research starting points; confirm with the court record, the regulator and your own counsel. Nothing here is an offer to buy or sell any debt, and no tool prices a portfolio.

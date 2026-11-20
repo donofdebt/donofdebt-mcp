@@ -783,6 +783,9 @@ ${sec}
 </body></html>`;
 }
 
+// Official MCP Registry HTTP domain proof for com.donofdebt/* (public key only).
+const MCP_REGISTRY_AUTH = "v=MCPv1; k=ed25519; p=A4I7vCBzz7q+pQAornapXsGwDn7I3MkAKP6zcQzYkr0=";
+
 async function route(request, env, path, origin) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: BASE_HEADERS });
   if (path === "/mcp" || path.startsWith("/api/")) {
@@ -793,9 +796,10 @@ async function route(request, env, path, origin) {
   if (path === "/mcp") return handleMcp(request);
   const allowed = methodsFor(path);
   const methodOk = allowed.split(", ").includes(request.method) || (request.method === "HEAD" && allowed.includes("GET"));
-  const known = ["/", "/robots.txt", "/openapi.json", "/.well-known/mcp/server-card.json", "/api", "/api/tools"].includes(path) || path.startsWith("/api/");
+  const known = ["/", "/robots.txt", "/openapi.json", "/.well-known/mcp/server-card.json", "/.well-known/mcp-registry-auth", "/api", "/api/tools"].includes(path) || path.startsWith("/api/");
   if (known && !methodOk) return json({ error: "method_not_allowed", message: `Use ${allowed.replace(", OPTIONS", "")}.` }, 405, { Allow: allowed });
   if (path === "/robots.txt") return text("User-agent: *\nDisallow: /\n");
+  if (path === "/.well-known/mcp-registry-auth") return text(MCP_REGISTRY_AUTH + "\n");
   if (path === "/") return text(docsPage(origin), 200, "text/html; charset=utf-8");
   if (path === "/openapi.json") return json(openapi(origin));
   if (path === "/.well-known/mcp/server-card.json") return json({ name: "donofdebt-mcp", title: SERVER_TITLE, websiteUrl: SITE, version: SERVER_VERSION, description: "Free educational tools for lenders, collection agencies, and debt buyers. Aggregate inputs only.", transport: { type: "streamable-http", url: origin + "/mcp" }, authentication: "none", tools: TOOLS.map((t) => t.name) });

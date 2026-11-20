@@ -1,0 +1,15 @@
+{
+  "name": "donofdebt-mcp",
+  "version": "0.2.0",
+  "description": "Free read-only MCP tools for lenders, collection agencies and debt buyers (charged-off debt). Remote: https://donofdebt.com/mcp",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://donofdebt.com",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "copy-check": "node scripts/copy-check.mjs",
+    "test": "node scripts/build.mjs && BASE=local node tests/run-tests.mjs"
+  },
+  "mcpName": "com.donofdebt/mcp"
+}

@@ -1,0 +1,1430 @@
+{
+ "AK": {
+  "state": "AK",
+  "name": "Alaska",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.akleg.gov/basis/statutes.asp#09.35.020 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Execution may issue within 10 years of entry; after that, leave of court is needed (AS 09.35.020).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.akleg.gov/basis/statutes.asp#09.30.070 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): AS 09.30.070 sets a variable rate: three percentage points above the Federal Reserve discount rate on January 2 of the year of judgment.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Alaska statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.commerce.alaska.gov/web/cbpl/ProfessionalLicensing/CollectionAgencies.aspx ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Alaska licenses collection agencies under AS 08.24.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "AL": {
+  "state": "AL",
+  "name": "Alabama",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://alison.legislature.state.al.us/code-of-alabama?section=6-9-190 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): A judgment can be revived within 20 years; a judgment not revived within 10 years is presumed satisfied (Ala. Code \u00a7 6-9-190, \u00a7 6-9-191).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://alison.legislature.state.al.us/code-of-alabama?section=8-8-10 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Ala. Code \u00a7 8-8-10 sets judgment interest at 7.5% per year (contract judgments may use the contract rate).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Alabama statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Alabama requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "AR": {
+  "state": "AR",
+  "name": "Arkansas",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Judgments run 10 years and can be revived by scire facias (Ark. Code Ann. \u00a7 16-56-114, \u00a7 16-65-501).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Ark. Code Ann. \u00a7 16-65-114 sets post-judgment interest (commonly cited as 10% or the contract rate).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Arkansas statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.sbca.arkansas.gov/ ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Arkansas has a State Board of Collection Agencies that licenses collection agencies.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "AZ": {
+  "state": "AZ",
+  "name": "Arizona",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 10 years and can be renewed by affidavit or action before expiry (A.R.S. \u00a7 12-1551; \u00a7 12-1612).",
+   "source": "https://www.azleg.gov/ars/12/01551.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "A.R.S. \u00a7 44-1201 sets judgment interest at the lesser of 10% or prime plus 1%, unless a contract rate applies.",
+   "source": "https://www.azleg.gov/ars/44/01201.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Arizona statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Arizona licenses collection agencies through the Department of Insurance and Financial Institutions (A.R.S. \u00a7 32-1001 et seq.).",
+   "source": "https://www.azleg.gov/ars/32/01001.htm",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "CA": {
+  "state": "CA",
+  "name": "California",
+  "judgment_life_and_renewal": {
+   "text": "A money judgment can't be enforced once 10 years have passed since entry (Cal. Code Civ. Proc. \u00a7 683.020). The creditor can renew it by filing an application before then, but not within 5 years of a previous renewal (\u00a7 683.110).",
+   "source": "https://california.public.law/codes/ca_civ_proc_code_section_683.020",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Interest accrues at 10% a year on the unpaid principal (Cal. Code Civ. Proc. \u00a7 685.010(a)(1)). A lower rate applies to some judgments entered or renewed from January 1, 2023 under \u00a7 685.010(a)(2); read the section for which debts qualify.",
+   "source": "https://california.public.law/codes/ca_civ_proc_code_section_685.010",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "An assignee becomes assignee of record by filing an acknowledgment of assignment of judgment with the clerk of the court that entered the judgment. It must be acknowledged like a real-property deed and executed by the judgment creditor or prior assignee of record (Cal. Code Civ. Proc. \u00a7 673). Judicial Council form EJ-100 is the court form.",
+   "source": "https://california.public.law/codes/ca_civ_proc_code_section_673",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "licensing_notes": {
+   "text": "Debt collection in California requires a license under the Debt Collection Licensing Act, administered by the DFPI (Cal. Fin. Code \u00a7 100001).",
+   "source": "https://california.public.law/codes/ca_fin_code_section_100001",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "CO": {
+  "state": "CO",
+  "name": "Colorado",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): District court judgments can be revived within 20 years; county court judgments within 6 years, revivable (C.R.S. \u00a7 13-52-102).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): C.R.S. \u00a7 5-12-102 and \u00a7 5-12-106 set judgment interest (8% or the contract rate; market rate on appeal).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Colorado statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://coag.gov/office-sections/consumer-protection/consumer-credit-unit/collection-agencies/ ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Colorado licenses collection agencies and debt buyers through the Attorney General's office.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "CT": {
+  "state": "CT",
+  "name": "Connecticut",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.cga.ct.gov/current/pub/chap_926.htm ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Execution on most money judgments must issue within 20 years (25 for some) (Conn. Gen. Stat. \u00a7 52-598).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.cga.ct.gov/current/pub/chap_673.htm ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Conn. Gen. Stat. \u00a7 37-3a allows up to 10% interest as damages for detention of money; post-judgment interest is discretionary in many cases.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Connecticut statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Connecticut requires consumer collection agencies to be licensed by the Department of Banking (Conn. Gen. Stat. \u00a7 36a-801).",
+   "source": "https://portal.ct.gov/dob",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "DC": {
+  "state": "DC",
+  "name": "District of Columbia",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 12 years and can be renewed for another 12 (D.C. Code \u00a7 15-101).",
+   "source": "https://code.dccouncil.gov/us/dc/council/code/sections/15-101",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "D.C. Code \u00a7 28-3302 sets judgment interest at the contract rate or 70% of the IRS underpayment rate.",
+   "source": "https://code.dccouncil.gov/us/dc/council/code/sections/28-3302",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an District of Columbia statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether District of Columbia requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "DE": {
+  "state": "DE",
+  "name": "Delaware",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://delcode.delaware.gov/title10/c047/sc02/index.html ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Judgment liens on real estate last 10 years and can be revived by scire facias (10 Del. C. \u00a7 4711).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "6 Del. C. \u00a7 2301 sets the legal rate at 5% over the Federal Reserve discount rate.",
+   "source": "https://delcode.delaware.gov/title6/c023/index.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Delaware statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Delaware requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "FL": {
+  "state": "FL",
+  "name": "Florida",
+  "judgment_life_and_renewal": {
+   "text": "An action on a judgment of a Florida court of record must be brought within 20 years (Fla. Stat. \u00a7 95.11(1)). A recorded judgment lien lasts an initial 10 years and can be extended for another 10 (Fla. Stat. \u00a7 55.10).",
+   "source": "https://florida.public.law/statutes/fla._stat._95.11",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "The Chief Financial Officer sets the judgment rate quarterly: the 12-month average Federal Reserve Bank of New York discount rate plus 400 basis points (Fla. Stat. \u00a7 55.03). The rate published for October 1, 2026 is 7.87% a year.",
+   "source": "https://www.myfloridacfo.com/division/aa/local-governments/judgement-interest-rates",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Florida statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Consumer collection agencies must register with the Office of Financial Regulation and renew each year (Fla. Stat. \u00a7 559.553).",
+   "source": "https://florida.public.law/statutes/fla._stat._559.553",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "GA": {
+  "state": "GA",
+  "name": "Georgia",
+  "judgment_life_and_renewal": {
+   "text": "A judgment becomes dormant and unenforceable if 7 years pass without execution being issued and entered on the general execution docket, or without the other qualifying docket entries. Each qualifying entry starts a new 7-year period (O.C.G.A. \u00a7 9-12-60).",
+   "source": "https://law.justia.com/codes/georgia/title-9/chapter-12/article-3/section-9-12-60/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): O.C.G.A. \u00a7 7-4-12 sets post-judgment interest at prime plus 3% (contract rate may apply).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Georgia statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Georgia requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "HI": {
+  "state": "HI",
+  "name": "Hawaii",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.capitol.hawaii.gov/hrscurrent/Vol13_Ch0601-0676/HRS0657/HRS_0657-0005.htm ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Judgments are presumed paid after 10 years, extendable to 20 by motion (Haw. Rev. Stat. \u00a7 657-5).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0478/HRS_0478-0003.htm ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Haw. Rev. Stat. \u00a7 478-3 sets judgment interest at 10% a year.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Hawaii statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies must register with DCCA (Haw. Rev. Stat. ch. 443B).",
+   "source": "https://cca.hawaii.gov/pvl/boards/collection/",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "IA": {
+  "state": "IA",
+  "name": "Iowa",
+  "judgment_life_and_renewal": {
+   "text": "Actions on judgments of courts of record: 20 years (Iowa Code \u00a7 614.1(6)); liens last 10 years.",
+   "source": "https://www.legis.iowa.gov/docs/code/614.1.pdf",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.legis.iowa.gov/docs/code/535.3.pdf ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Iowa Code \u00a7 668.13 / \u00a7 535.3 use a variable rate tied to the one-year Treasury yield plus 2%.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Iowa statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Debt collectors collecting consumer debt must register under Iowa Code \u00a7 537.7103.",
+   "source": "https://www.legis.iowa.gov/docs/code/537.7103.pdf",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "ID": {
+  "state": "ID",
+  "name": "Idaho",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 10 years and can be renewed (Idaho Code \u00a7 10-1110, \u00a7 10-1111).",
+   "source": "https://legislature.idaho.gov/statutesrules/idstat/title10/t10ch11/sect10-1111/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Idaho Code \u00a7 28-22-104 sets a rate of 5% plus the U.S. Treasury yield, announced each July by the State Treasurer.",
+   "source": "https://legislature.idaho.gov/statutesrules/idstat/title28/t28ch22/sect28-22-104/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Idaho statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "The Idaho Collection Agency Act requires licensing with the Department of Finance (Idaho Code \u00a7 26-2223).",
+   "source": "https://legislature.idaho.gov/statutesrules/idstat/title26/t26ch22/sect26-2223/",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "IL": {
+  "state": "IL",
+  "name": "Illinois",
+  "judgment_life_and_renewal": {
+   "text": "A judgment can't be enforced after 7 years unless it is revived (735 ILCS 5/12-108). Revival is by petition, generally within 20 years of entry; consumer-debt judgments have special rules (735 ILCS 5/2-1602).",
+   "source": "https://www.ilga.gov/documents/legislation/ilcs/documents/073500050K12-108.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Judgments draw 9% a year (6% against government entities). Consumer-debt judgments of $25,000 or less draw 5% (735 ILCS 5/2-1303).",
+   "source": "https://www.ilga.gov/documents/legislation/ilcs/documents/073500050K2-1303.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Illinois statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies need a license under the Collection Agency Act, now 205 ILCS 740 (formerly 225 ILCS 425). Debt buyers are covered but exempt from some requirements, such as the bond and trust account (\u00a7 8.6).",
+   "source": "https://www.ilga.gov/documents/legislation/ilcs/documents/020507400K4.htm",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "IN": {
+  "state": "IN",
+  "name": "Indiana",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://iga.in.gov/laws/2024/ic/titles/34#34-11-2-12 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Judgments are deemed satisfied after 20 years (Ind. Code \u00a7 34-11-2-12); the lien lasts 10 years (\u00a7 34-55-9-2).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://iga.in.gov/laws/2024/ic/titles/24#24-4.6-1-101 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Ind. Code \u00a7 24-4.6-1-101 sets up to 8% (or the contract rate).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Indiana statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies are licensed by the Indiana Secretary of State (Ind. Code \u00a7 25-11).",
+   "source": "https://www.in.gov/sos/securities/collection-agencies/",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "KS": {
+  "state": "KS",
+  "name": "Kansas",
+  "judgment_life_and_renewal": {
+   "text": "A judgment becomes dormant if not renewed within 5 years and can be revived within 2 years after dormancy (K.S.A. 60-2403, 60-2404).",
+   "source": "https://www.ksrevisor.gov/statutes/chapters/ch60/060_024_0003.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "K.S.A. 16-204 sets 4 percentage points above the federal discount rate, reset each July 1.",
+   "source": "https://www.ksrevisor.gov/statutes/chapters/ch16/016_002_0004.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Kansas statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Kansas requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "KY": {
+  "state": "KY",
+  "name": "Kentucky",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=24519 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Actions on judgments must be brought within 15 years (KRS 413.090).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=46975 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): KRS 360.040 sets 6% compounded annually, with court discretion.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Kentucky statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Kentucky requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "LA": {
+  "state": "LA",
+  "name": "Louisiana",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.legis.la.gov/legis/Law.aspx?d=110567 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Money judgments prescribe in 10 years unless revived (La. Civ. Code art. 3501).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.legis.la.gov/legis/Law.aspx?d=86787 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): La. R.S. 13:4202 sets a variable judicial interest rate announced annually.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Louisiana statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies are licensed by the Office of Financial Institutions (La. R.S. 9:3576.1 et seq.).",
+   "source": "https://ofi.la.gov/",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "MA": {
+  "state": "MA",
+  "name": "Massachusetts",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are presumed satisfied after 20 years (M.G.L. c. 260, \u00a7 20).",
+   "source": "https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleV/Chapter260/Section20",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://malegislature.gov/Laws/GeneralLaws/PartIII/TitleIV/Chapter235/Section8 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): M.G.L. c. 235, \u00a7 8 sets 12% (some exceptions).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Massachusetts statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Debt collectors must be licensed by the Division of Banks (M.G.L. c. 93, \u00a7 24A).",
+   "source": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXV/Chapter93/Section24A",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "MD": {
+  "state": "MD",
+  "name": "Maryland",
+  "judgment_life_and_renewal": {
+   "text": "Money judgments expire after 12 years unless renewed (Md. Code, Cts. & Jud. Proc. \u00a7 5-102).",
+   "source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=5-102",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Md. Code, Cts. & Jud. Proc. \u00a7 11-107 sets 10% a year on a judgment (subsection a), 6% on a money judgment for rent of residential premises (subsection b), and a separate rule for delinquent property-tax judgments, except as provided in \u00a7 11-106.",
+   "source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gcj&section=11-107",
+   "checked": "2026-11-19",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Maryland statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "The Maryland Collection Agency Licensing Act covers collection agencies including debt buyers (Md. Bus. Reg. \u00a7 7-301).",
+   "source": "https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gbr&section=7-301",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "ME": {
+  "state": "ME",
+  "name": "Maine",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are presumed paid after 20 years (14 M.R.S. \u00a7 864).",
+   "source": "https://legislature.maine.gov/statutes/14/title14sec864.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "14 M.R.S. \u00a7 1602-C sets a variable rate based on the one-year Treasury bill.",
+   "source": "https://legislature.maine.gov/statutes/14/title14sec1602-C.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Maine statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.maine.gov/pfr/consumercredit/ ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Debt collectors must be licensed by the Bureau of Consumer Credit Protection (32 M.R.S. ch. 109-A).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "MI": {
+  "state": "MI",
+  "name": "Michigan",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 10 years and can be renewed by action (MCL 600.5809).",
+   "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-5809",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "MCL 600.6013 sets a variable rate tied to 5-year Treasury notes, reset every six months.",
+   "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-600-6013",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Michigan statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies are licensed under Article 9 of the Occupational Code (MCL 339.901 et seq.).",
+   "source": "https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-339-904",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "MN": {
+  "state": "MN",
+  "name": "Minnesota",
+  "judgment_life_and_renewal": {
+   "text": "Judgments survive 10 years (Minn. Stat. \u00a7 548.09, \u00a7 541.04).",
+   "source": "https://www.revisor.mn.gov/statutes/cite/541.04",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Minn. Stat. \u00a7 549.09 sets a variable rate set annually; 10% for judgments over $50,000 in many cases.",
+   "source": "https://www.revisor.mn.gov/statutes/cite/549.09",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Minnesota statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies are licensed by the Department of Commerce (Minn. Stat. \u00a7 332.33).",
+   "source": "https://www.revisor.mn.gov/statutes/cite/332.33",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "MO": {
+  "state": "MO",
+  "name": "Missouri",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are presumed paid after 10 years unless revived (Mo. Rev. Stat. \u00a7 516.350).",
+   "source": "https://revisor.mo.gov/main/OneSection.aspx?section=516.350",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Mo. Rev. Stat. \u00a7 408.040 sets 9% or the contract rate for non-tort judgments.",
+   "source": "https://revisor.mo.gov/main/OneSection.aspx?section=408.040",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Missouri statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Missouri requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "MS": {
+  "state": "MS",
+  "name": "Mississippi",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Actions on judgments must be brought within 7 years (Miss. Code Ann. \u00a7 15-1-43).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Miss. Code Ann. \u00a7 75-17-7 lets the judge set the rate within statutory limits.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Mississippi statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Mississippi requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "MT": {
+  "state": "MT",
+  "name": "Montana",
+  "judgment_life_and_renewal": {
+   "text": "Actions on judgments: 10 years (Mont. Code Ann. \u00a7 27-2-201).",
+   "source": "https://archive.legmt.gov/bills/mca/title_0270/chapter_0020/part_0020/section_0010/0270-0020-0020-0010.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Mont. Code Ann. \u00a7 25-9-205 sets prime plus 3%.",
+   "source": "https://archive.legmt.gov/bills/mca/title_0250/chapter_0090/part_0020/section_0050/0250-0090-0020-0050.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Montana statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Montana requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "NC": {
+  "state": "NC",
+  "name": "North Carolina",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 10 years and can be renewed by a new action (N.C. Gen. Stat. \u00a7 1-47).",
+   "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_1/GS_1-47.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "N.C. Gen. Stat. \u00a7 24-1 sets the legal rate at 8%, with \u00a7 24-5 for judgments.",
+   "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_24/GS_24-1.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an North Carolina statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies need a permit from the Department of Insurance (N.C. Gen. Stat. \u00a7 58-70-1).",
+   "source": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_58/GS_58-70-1.html",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "ND": {
+  "state": "ND",
+  "name": "North Dakota",
+  "judgment_life_and_renewal": {
+   "text": "Judgments last 10 years and can be renewed by affidavit (N.D.C.C. \u00a7 28-20-35).",
+   "source": "https://ndlegis.gov/cencode/t28c20.pdf",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "N.D.C.C. \u00a7 28-20-34 sets prime plus 3%, set annually.",
+   "source": "https://ndlegis.gov/cencode/t28c20.pdf",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an North Dakota statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies are licensed by the Department of Financial Institutions (N.D.C.C. ch. 13-05).",
+   "source": "https://ndlegis.gov/cencode/t13c05.pdf",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "NE": {
+  "state": "NE",
+  "name": "Nebraska",
+  "judgment_life_and_renewal": {
+   "text": "Judgments go dormant after 5 years without execution and can be revived within 10 years (Neb. Rev. Stat. \u00a7 25-1515, \u00a7 25-1420).",
+   "source": "https://nebraskalegislature.gov/laws/statutes.php?statute=25-1515",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Neb. Rev. Stat. \u00a7 45-103 sets a variable rate (2% above the bond investment yield).",
+   "source": "https://nebraskalegislature.gov/laws/statutes.php?statute=45-103",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Nebraska statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "The Collection Agency Act requires licensing with the Collection Agency Licensing Board (Neb. Rev. Stat. \u00a7 45-601 et seq.).",
+   "source": "https://nebraskalegislature.gov/laws/statutes.php?statute=45-602",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "NH": {
+  "state": "NH",
+  "name": "New Hampshire",
+  "judgment_life_and_renewal": {
+   "text": "Actions on judgments: 20 years (RSA 508:5).",
+   "source": "https://www.gencourt.state.nh.us/rsa/html/LII/508/508-5.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "RSA 336:1 sets a variable rate announced annually.",
+   "source": "https://www.gencourt.state.nh.us/rsa/html/XXXI/336/336-1.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an New Hampshire statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether New Hampshire requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "NJ": {
+  "state": "NJ",
+  "name": "New Jersey",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Actions on judgments: 20 years (N.J.S.A. 2A:14-5).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Under Court Rule 4:42-11 the rate is set yearly from the State Cash Management Fund return. For judgments entered in 2026 it is 4.5% at or below the Special Civil Part limit and 6.5% above it.",
+   "source": "https://www.njcourts.gov/notices/notice-post-judgment-interest-rate-calendar-year-2026-rule-442-11",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an New Jersey statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether New Jersey requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "NM": {
+  "state": "NM",
+  "name": "New Mexico",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Actions on judgments of courts of record: 14 years (NMSA \u00a7 37-1-2).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): NMSA \u00a7 56-8-4 sets 8.75% for most judgments, with other rates for torts.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an New Mexico statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether New Mexico requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "NV": {
+  "state": "NV",
+  "name": "Nevada",
+  "judgment_life_and_renewal": {
+   "text": "Judgments expire after 6 years unless renewed by affidavit (NRS 11.190, NRS 17.214).",
+   "source": "https://www.leg.state.nv.us/NRS/NRS-017.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "NRS 17.130 sets prime plus 2%, adjusted January 1 and July 1.",
+   "source": "https://www.leg.state.nv.us/NRS/NRS-017.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Nevada statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies are licensed by the Financial Institutions Division (NRS ch. 649).",
+   "source": "https://www.leg.state.nv.us/NRS/NRS-649.html",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "NY": {
+  "state": "NY",
+  "name": "New York",
+  "judgment_life_and_renewal": {
+   "text": "A money judgment is presumed paid and satisfied 20 years after the creditor was first entitled to enforce it (CPLR 211(b)).",
+   "source": "https://newyork.public.law/laws/n.y._civil_practice_law_and_rules_section_211",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Interest is 9% a year, but 2% for consumer-debt judgments against a natural person (CPLR 5004).",
+   "source": "https://newyork.public.law/laws/n.y._civil_practice_law_and_rules_section_5004",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "A person other than the original judgment creditor who becomes entitled to enforce the judgment must file proof in the office of the clerk of the court where the judgment was entered, and the clerk enters it on the docket (CPLR 5019(c)).",
+   "source": "https://newyork.public.law/laws/n.y._civil_practice_law_and_rules_section_5019",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "licensing_notes": {
+   "text": "New York City requires a DCWP Debt Collection Agency license for businesses that regularly collect personal or household debts from NYC residents. We have not verified the statewide (DFS) requirements.",
+   "source": "https://www.nyc.gov/site/dca/businesses/license-checklist-debt-collection-agency.page",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "OH": {
+  "state": "OH",
+  "name": "Ohio",
+  "judgment_life_and_renewal": {
+   "text": "A judgment becomes dormant after 5 years without execution and can be revived (R.C. 2329.07, 2325.15).",
+   "source": "https://codes.ohio.gov/ohio-revised-code/section-2329.07",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "R.C. 1343.03 sets a variable rate set annually by the Tax Commissioner.",
+   "source": "https://codes.ohio.gov/ohio-revised-code/section-1343.03",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Ohio statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Ohio requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "OK": {
+  "state": "OK",
+  "name": "Oklahoma",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=95847 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): A judgment becomes unenforceable after 5 years unless renewed (12 O.S. \u00a7 735).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.oscn.net/applications/oscn/DeliverDocument.asp?CiteID=95840 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): 12 O.S. \u00a7 727.1 sets prime plus 2%, set annually.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Oklahoma statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Oklahoma requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "OR": {
+  "state": "OR",
+  "name": "Oregon",
+  "judgment_life_and_renewal": {
+   "text": "Judgment remedies expire after 10 years and can be extended once for 10 more (ORS 18.180, 18.182).",
+   "source": "https://oregon.public.law/statutes/ors_18.180",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "ORS 82.010 sets 9% a year where the parties have not agreed to a different rate (a contract rate may apply).",
+   "source": "https://www.oregonlegislature.gov/bills_laws/ors/ors082.html",
+   "checked": "2026-11-19",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Oregon statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Oregon requires a separate debt buyer license through NMLS in addition to collection agency rules.",
+   "source": "https://dfr.oregon.gov/business/licensing/financial/pages/debt-buyer.aspx",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "PA": {
+  "state": "PA",
+  "name": "Pennsylvania",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=42&div=0&chpt=55&sctn=26&subsctn=0 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Judgment liens on real estate last 5 years and must be revived (42 Pa.C.S. \u00a7 5526 and Pa.R.C.P. 3025-3033).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Judgments bear interest at the \"lawful rate\" (42 Pa.C.S. \u00a7 8101), which is 6% a year under 41 P.S. \u00a7 202, as Pennsylvania appellate courts have confirmed (e.g., Equitable Gas Co. v. Wade, Pa. Super. 2002).",
+   "source": "https://www.palegis.us/WU01/LI/LI/CT/HTM/42/00.081.001.000..HTM",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Pennsylvania statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Pennsylvania requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "RI": {
+  "state": "RI",
+  "name": "Rhode Island",
+  "judgment_life_and_renewal": {
+   "text": "Actions on judgments: 20 years (R.I. Gen. Laws \u00a7 9-1-17).",
+   "source": "https://webserver.rilegislature.gov/Statutes/TITLE9/9-1/9-1-17.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "R.I. Gen. Laws \u00a7 9-21-10 sets 12%.",
+   "source": "https://webserver.rilegislature.gov/Statutes/TITLE9/9-21/9-21-10.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Rhode Island statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Debt collectors are licensed by the Department of Business Regulation (R.I. Gen. Laws \u00a7 19-14.9).",
+   "source": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14.9/INDEX.htm",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "SC": {
+  "state": "SC",
+  "name": "South Carolina",
+  "judgment_life_and_renewal": {
+   "text": "Judgment liens last 10 years (S.C. Code \u00a7 15-35-810).",
+   "source": "https://www.scstatehouse.gov/code/t15c035.php",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "S.C. Code \u00a7 34-31-20 sets prime plus 4%, set annually.",
+   "source": "https://www.scstatehouse.gov/code/t34c031.php",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an South Carolina statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether South Carolina requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "SD": {
+  "state": "SD",
+  "name": "South Dakota",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://sdlegislature.gov/Statutes/15-2-6 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Actions on judgments: 20 years (SDCL 15-2-6).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://sdlegislature.gov/Statutes/54-3-5.1 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): SDCL 54-3-5.1 sets the Category B rate (10%) for judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an South Dakota statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether South Dakota requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "TN": {
+  "state": "TN",
+  "name": "Tennessee",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Judgments run 10 years and can be renewed (Tenn. Code Ann. \u00a7 28-3-110).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.tncourts.gov/ ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Tenn. Code Ann. \u00a7 47-14-121 sets a variable rate published each half-year by the Administrative Office of the Courts.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Tennessee statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://www.tn.gov/commerce/regboards/collection.html ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Collection services are licensed by the Collection Service Board (Tenn. Code Ann. \u00a7 62-20).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "TX": {
+  "state": "TX",
+  "name": "Texas",
+  "judgment_life_and_renewal": {
+   "text": "If no writ of execution issues within 10 years after the judgment (or within 10 years of the previous writ), the judgment goes dormant and can't be executed on unless it is revived (Tex. Civ. Prac. & Rem. Code \u00a7 34.001).",
+   "source": "https://statutes.capitol.texas.gov/Docs/CP/htm/CP.34.htm",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "The post-judgment rate is the prime rate, with a 5% floor and a 15% cap (Tex. Fin. Code \u00a7 304.003). Contract judgments follow \u00a7 304.002.",
+   "source": "https://texas.public.law/statutes/tex._fin._code_section_304.003",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "A judgment may be sold if the transfer is in writing. The transfer can be filed with the papers of the suit if it is acknowledged or sworn like a deed (Tex. Prop. Code \u00a7 12.014).",
+   "source": "https://texas.public.law/statutes/tex._prop._code_section_12.014",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "licensing_notes": {
+   "text": "Third-party debt collectors must obtain a surety bond and file a copy with the Secretary of State before collecting (Tex. Fin. Code \u00a7 392.101).",
+   "source": "https://texas.public.law/statutes/tex._fin._code_section_392.101",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "UT": {
+  "state": "UT",
+  "name": "Utah",
+  "judgment_life_and_renewal": {
+   "text": "Actions on judgments: 8 years; judgments can be renewed (Utah Code \u00a7 78B-2-311, \u00a7 78B-6-1801).",
+   "source": "https://le.utah.gov/xcode/Title78B/Chapter2/78B-2-S311.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Utah Code \u00a7 15-1-4 sets the federal post-judgment rate plus 2% (contract rate may apply).",
+   "source": "https://le.utah.gov/xcode/Title15/Chapter1/15-1-S4.html",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Utah statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Utah requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "VA": {
+  "state": "VA",
+  "name": "Virginia",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 20 years and can be extended (Va. Code \u00a7 8.01-251).",
+   "source": "https://law.lis.virginia.gov/vacode/title8.01/chapter4/section8.01-251/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Va. Code \u00a7 6.2-302 sets the judgment rate at 6%.",
+   "source": "https://law.lis.virginia.gov/vacode/title6.2/chapter3/section6.2-302/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Virginia statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Virginia requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "VT": {
+  "state": "VT",
+  "name": "Vermont",
+  "judgment_life_and_renewal": {
+   "text": "Actions on judgments: 8 years, renewable (12 V.S.A. \u00a7 506).",
+   "source": "https://legislature.vermont.gov/statutes/section/12/023/00506",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. The official page we tried ( https://legislature.vermont.gov/statutes/section/12/123/02903 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): 12 V.S.A. \u00a7 2903 sets 12%.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Vermont statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified. We did not confirm whether Vermont requires a license, registration or bond to buy or collect judgments. Check with the state financial regulator or counsel; federal FDCPA rules may also apply to consumer judgments.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "WA": {
+  "state": "WA",
+  "name": "Washington",
+  "judgment_life_and_renewal": {
+   "text": "Judgments are enforceable for 10 years and can be extended once (RCW 6.17.020).",
+   "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=6.17.020",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "RCW 4.56.110 sets several rates: judgments for unpaid consumer debt (as defined in RCW 6.01.060) bear 9% from entry (subsection 5); contract judgments may carry the contract rate; tort judgments bear prime plus 2%; other judgments bear the maximum rate under RCW 19.52.020 on the date of entry (subsection 6), which varies.",
+   "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=4.56.110",
+   "checked": "2026-11-19",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "An assignment of judgment is filed with the court clerk to make the assignee of record (RCW 4.56.090).",
+   "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=4.56.090",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "licensing_notes": {
+   "text": "Collection agencies must be licensed by the Department of Licensing (RCW 19.16.110).",
+   "source": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.16.110",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "WI": {
+  "state": "WI",
+  "name": "Wisconsin",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. The official page we tried ( https://docs.legis.wisconsin.gov/statutes/statutes/893/iii/40 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Judgments are enforceable for 20 years (10 for some), with liens on real property lasting 10 years (Wis. Stat. \u00a7 893.40, \u00a7 806.15).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Wis. Stat. \u00a7 815.05(8) sets prime plus 1%, set semiannually.",
+   "source": "https://docs.legis.wisconsin.gov/statutes/statutes/815/05/8",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Wisconsin statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://docs.legis.wisconsin.gov/statutes/statutes/218/04 ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Collection agencies are licensed by the Department of Financial Institutions (Wis. Stat. \u00a7 218.04).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ },
+ "WV": {
+  "state": "WV",
+  "name": "West Virginia",
+  "judgment_life_and_renewal": {
+   "text": "Executions can issue for 10 years and can be renewed (W. Va. Code \u00a7 38-3-18).",
+   "source": "https://code.wvlegislature.gov/38-3-18/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "post_judgment_interest": {
+   "text": "W. Va. Code \u00a7 56-6-31 sets a variable rate (Fed discount rate plus 3%, within limits).",
+   "source": "https://code.wvlegislature.gov/56-6-31/",
+   "checked": "2026-10",
+   "verified": true
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an West Virginia statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Collection agencies must be licensed (W. Va. Code \u00a7 47-16).",
+   "source": "https://code.wvlegislature.gov/47-16-1/",
+   "checked": "2026-10",
+   "verified": true
+  }
+ },
+ "WY": {
+  "state": "WY",
+  "name": "Wyoming",
+  "judgment_life_and_renewal": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): A judgment becomes dormant after 5 years without execution and can be revived (Wyo. Stat. \u00a7 1-17-307).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "post_judgment_interest": {
+   "text": "Not verified from an official source. We could not find a free official online copy to check. Lead for counsel to confirm (unconfirmed, may be outdated): Wyo. Stat. \u00a7 1-16-102 sets 10% (or the contract rate).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "assignment_filing": {
+   "text": "Not verified. We did not find an Wyoming statute or statewide court form that sets out how an assignment of judgment is filed. In practice, assignees commonly file a signed, notarized assignment of judgment with the clerk of the court that entered the judgment, but procedure varies by court. Confirm with that clerk or counsel.",
+   "source": null,
+   "checked": null,
+   "verified": false
+  },
+  "licensing_notes": {
+   "text": "Not verified from an official source. The official page we tried ( https://wyocab.wyo.gov/ ) could not be checked automatically. Lead for counsel to confirm (unconfirmed, may be outdated): Collection agencies are licensed by the Collection Agency Board (Wyo. Stat. \u00a7 33-11).",
+   "source": null,
+   "checked": null,
+   "verified": false
+  }
+ }
+}

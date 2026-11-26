@@ -15,7 +15,7 @@ claude mcp add --transport http donofdebt https://donofdebt.com/mcp
 - 16 tools, every one read-only (`readOnlyHint: true`), with an `outputSchema` and `structuredContent`.
 - Stateless: nothing is stored, and inputs are not logged.
 - Aggregate inputs only. Personal or account-level data (names, SSNs, dates of birth, addresses, phone numbers, emails, account or case numbers, data-tape rows) is rejected with `pii_rejected` and never echoed back.
-- About 60 requests per minute per IP.
+- About 60 requests per minute per IP. Over the limit you get HTTP 429 with `Retry-After: 60` (on `/mcp` the body is a JSON-RPC error, code -32029).
 - JSON API and OpenAPI: `POST https://mcp.donofdebt.com/api/<tool>`, `GET https://mcp.donofdebt.com/openapi.json`. Server card: `https://donofdebt.com/.well-known/mcp/server-card.json`.
 
 The Don of Debt (Jeffery Hartman) only introduces potential buyers and sellers privately. These tools never price a portfolio and never submit anything on your behalf.

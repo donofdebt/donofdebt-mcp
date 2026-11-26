@@ -2,7 +2,7 @@
 const SITE = "https://donofdebt.com";
 const JOTFORM_URL = "https://form.jotform.com/262856575148066";
 const CONTENT_AS_OF = "2026-11-19";
-const SERVER_VERSION = "0.2.0";
+const SERVER_VERSION = "0.2.1";
 
 // Site disclaimer, verbatim from the donofdebt.com footer (adaptation to "This tool provides" awaits GoldGuy's OK).
 const SITE_DISCLAIMER =

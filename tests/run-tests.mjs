@@ -12,6 +12,8 @@ async function req(path, init = {}) {
   calls++;
   const MCP_BASE = process.env.MCP_BASE ? process.env.MCP_BASE.replace(/\/$/, "") : null; // e.g. https://donofdebt.com (public /mcp via the site Worker)
   const base = MCP_BASE && (path === "/mcp" || path.startsWith("/.well-known/mcp")) ? MCP_BASE : origin;
+  // Local runs: a distinct client IP per request so the in-isolate limiter never interferes (the limiter has its own test below).
+  if (worker && !(init.headers && init.headers["cf-connecting-ip"])) init = Object.assign({}, init, { headers: Object.assign({}, init.headers || {}, { "cf-connecting-ip": "198.51.100." + (calls % 250) + "-" + calls }) });
   const r = new Request(base + path, init);
   const res = worker ? await worker.fetch(r, {}) : await fetch(r);
   const body = await res.text();
@@ -174,6 +176,59 @@ if (!worker && process.env.RATE_TEST !== "0") {
   for (let i = 0; i < 75; i++) { burst.push((await fetch(origin + "/api/diligence_checklist", { method: "POST", headers: { "content-type": "application/json" }, body: "{}" })).status); await new Promise((ok) => setTimeout(ok, 40)); }
   const n429 = burst.filter((x) => x === 429).length;
   check("rate limit returns 429 after burst (75 quick sequential requests)", n429 > 0, `429s: ${n429}`);
+  const m429 = await fetch(origin + "/mcp", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ jsonrpc: "2.0", id: 7, method: "tools/list" }) });
+  const mj = await m429.json().catch(() => null);
+  check("rate limit: /mcp during burst -> 429 JSON-RPC error + Retry-After", m429.status === 429 && mj?.jsonrpc === "2.0" && mj?.error?.code === -32029 && m429.headers.get("retry-after") === "60", `${m429.status} ${JSON.stringify(mj).slice(0, 160)}`);
+  await new Promise((ok) => setTimeout(ok, 65000)); // let the window reset before the remaining checks
+}
+
+// ================= v0.3 fixes (outside audit, Nov 25 2026) =================
+// Hard hit 2: placement_readiness_check echoes the validated role; the disclaimer stays in boundary/notice.
+for (const role of ["agency_receiving", "creditor_placing"]) {
+  const pr = await rpc("tools/call", { name: "placement_readiness_check", arguments: { role } });
+  const sc = pr.json?.result?.structuredContent;
+  check(`audit: placement_readiness_check structuredContent.role === "${role}"`, sc?.role === role, sc?.role);
+  check(`audit: placement_readiness_check boundary keeps the introductions-only note (${role})`, /only introduces potential buyers and sellers/.test(sc?.boundary || ""), sc?.boundary);
+  const pa = (await api("placement_readiness_check", { role })).json;
+  check(`audit: /api placement_readiness_check role === "${role}"`, pa?.role === role, pa?.role);
+}
+check("audit: other tools still carry the role note", /only introduces/.test((await api("diligence_checklist", {})).json?.role || ""));
+// Nit: markup in echoed strings never round-trips.
+{
+  const x = (await api("data_tape_header_check", { columns: ["<script>alert(1)</script>", "<img src=x onerror=alert(1)>zz_col", "chargeoff_date"] })).json;
+  const blob = JSON.stringify(x);
+  check("audit: data_tape_header_check strips markup from unmapped", x && !/[<>]/.test(JSON.stringify(x.unmapped)) && x.unmapped.includes("alert(1)") && x.unmapped.includes("zz_col"), JSON.stringify(x && x.unmapped));
+  check("audit: no <script or <img anywhere in data_tape_header_check output", !/<script|<img/i.test(blob));
+  const m = await rpc("tools/call", { name: "data_tape_header_check", arguments: { columns: ["<script>alert(1)</script>"] } });
+  check("audit: MCP data_tape_header_check text + structured have no markup", !/<script/i.test(m.body), m.body.slice(0, 200));
+  const q = (await api("faq_search", { query: "<b>forward flow</b>" })).json;
+  check("audit: faq_search echoed query has markup stripped", q && q.query === "forward flow", q && q.query);
+  check("audit: markup-only header rejected as empty", (await api("data_tape_header_check", { columns: ["<b></b>"] })).status === 400);
+}
+// Nit: diligence_checklist as_of matches the content date; server name has no "(preview)".
+check("audit: diligence_checklist as_of 2026-11-19", (await api("diligence_checklist", {})).json?.as_of === "2026-11-19");
+{
+  const init = (await rpc("initialize", { protocolVersion: "2025-06-18", capabilities: {}, clientInfo: { name: "t", version: "1" } })).json?.result?.serverInfo;
+  check("audit: serverInfo.title has no (preview)", init && init.title === "The Don of Debt portfolio tools", init && init.title);
+  check("audit: openapi title has no (preview)", (await req("/openapi.json")).json?.info?.title === "The Don of Debt portfolio tools");
+  check("audit: server card title has no (preview)", (await req("/.well-known/mcp/server-card.json")).json?.title === "The Don of Debt portfolio tools");
+  check("audit: docs page has no (preview)", !/\(preview\)/i.test((await req("/")).body));
+}
+// Hard hit 1 (local): 60/min per IP, then 429 + Retry-After; /mcp gets a JSON-RPC error body.
+if (worker) {
+  const ip = { "cf-connecting-ip": "203.0.113.77" };
+  const st = [];
+  for (let i = 0; i < 60; i++) st.push((await req("/api/diligence_checklist", { method: "POST", headers: Object.assign({ "content-type": "application/json" }, ip), body: "{}" })).status);
+  check("audit: local limiter allows 60 requests in a minute", st.every((x) => x === 200), st.filter((x) => x !== 200).length);
+  const over = await req("/mcp", { method: "POST", headers: Object.assign({ "content-type": "application/json" }, ip), body: JSON.stringify({ jsonrpc: "2.0", id: 4242, method: "tools/list" }) });
+  check("audit: 61st request -> 429", over.status === 429, over.status);
+  check("audit: 429 has Retry-After 60", over.headers.get("retry-after") === "60", over.headers.get("retry-after"));
+  check("audit: /mcp 429 body is a JSON-RPC error with the request id", over.json?.jsonrpc === "2.0" && over.json?.id === 4242 && over.json?.error?.code === -32029 && over.json?.error?.data?.retry_after_seconds === 60, over.body.slice(0, 200));
+  const apiOver = await req("/api/faq_search", { method: "POST", headers: Object.assign({ "content-type": "application/json" }, ip), body: JSON.stringify({ query: "forward flow" }) });
+  check("audit: /api 429 body rate_limited", apiOver.status === 429 && apiOver.json?.error === "rate_limited", apiOver.status);
+  const other = await req("/api/diligence_checklist", { method: "POST", headers: { "content-type": "application/json", "cf-connecting-ip": "203.0.113.78" }, body: "{}" });
+  check("audit: a different IP is unaffected", other.status === 200, other.status);
+  check("audit: OPTIONS never rate limited", (await req("/mcp", { method: "OPTIONS", headers: ip })).status === 204);
 }
 
 // ================= v0.2 fixes (tinkabot review) =================

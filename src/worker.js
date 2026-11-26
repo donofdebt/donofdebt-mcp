@@ -133,7 +133,8 @@ function envelope(tool, body, sources, page) {
     input_aliases_applied: [],
     disclaimer: SITE_DISCLAIMER,
     notice: TOOL_NOTICE,
-    role: ROLE_NOTE,
+    // A tool that has its own validated "role" input (placement_readiness_check) echoes it; others keep the boundary note.
+    role: typeof body.role === "string" ? body.role : ROLE_NOTE,
     next_step: nextStep(page || PAGES.debt_for_sale),
   });
 }
@@ -336,7 +337,7 @@ const TOOLS = [
         checklist: list,
         summary: { done: list.filter((x) => x.status === "done").length, gaps: list.filter((x) => x.status === "gap").length, unknown: list.filter((x) => x.status === "unknown").length },
         open_items: list.filter((x) => x.status !== "done").map((x) => x.item),
-        boundary: "A completed checklist is not a compliance determination. Confirm licensing with each state regulator and review collection practices with counsel.",
+        boundary: "A completed checklist is not a compliance determination. Confirm licensing with each state regulator and review collection practices with counsel. " + ROLE_NOTE,
       }, [PAGES.agency_start, EXT.reg_f, EXT.ftc_safeguards, EXT.nmls_slr, EXT.csbs_overview], PAGES.agency_start);
     },
   },
@@ -550,7 +551,7 @@ const TOOLS = [
       return envelope(this, {
         side, stages,
         boundary: "Completing a checklist does not establish ownership, collectibility, compliance, price, or closing readiness. Do not send account-level files, consumer information, guarantor information, or credentials by ordinary email.",
-        as_of: "2026-10-06",
+        as_of: CONTENT_AS_OF,
       }, [PAGES.diligence_checklist, PAGES.diligence_protocol], side === "seller" ? PAGES.seller_intake : PAGES.buyer_application);
     },
   },
@@ -663,6 +664,16 @@ function summaryText(name, r) {
 const TOOL_MAP = new Map(TOOLS.map((t) => [t.name, t]));
 class UserError extends Error {}
 
+// Strip markup from free-text inputs (header names, search queries) so nothing echoed back can render as HTML.
+function stripMarkup(s) {
+  return s.replace(/<\/?[A-Za-z!?][^>]*>?/g, "").replace(/[<>]/g, "").replace(/[\u0000-\u001f\u007f]/g, " ").trim();
+}
+function sanitizeArgs(v) {
+  if (typeof v === "string") return stripMarkup(v);
+  if (Array.isArray(v)) return v.map(sanitizeArgs);
+  if (v && typeof v === "object") return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, sanitizeArgs(x)]));
+  return v;
+}
 function callTool(name, rawArgs) {
   const tool = TOOL_MAP.get(name);
   if (!tool) return { ok: false, code: 404, error: { error: "unknown_tool", message: `Unknown tool: ${name}` } };
@@ -671,15 +682,18 @@ function callTool(name, rawArgs) {
   if (pii) return { ok: false, code: 422, error: { error: "pii_rejected", message: PII_MESSAGE, field: pii.path, detected: pii.kind, disclaimer: SITE_DISCLAIMER } };
   const err = validate(tool.inputSchema, args);
   if (err) return { ok: false, code: 400, error: { error: "invalid_input", message: err } };
+  const clean = sanitizeArgs(args);
+  const err2 = validate(tool.inputSchema, clean);
+  if (err2) return { ok: false, code: 400, error: { error: "invalid_input", message: err2 + " (after removing markup)" } };
   try {
-    const result = tool.run(args);
+    const result = tool.run(clean);
     result.input_aliases_applied = aliases;
     return { ok: true, result };
   } catch (e) { if (e instanceof UserError) return { ok: false, code: 400, error: { error: "invalid_input", message: e.message } }; return { ok: false, code: 500, error: { error: "internal_error", message: "Internal error" } }; }
 }
 
 // ---------- HTTP ----------
-const SERVER_TITLE = "The Don of Debt portfolio tools (preview)";
+const SERVER_TITLE = "The Don of Debt portfolio tools";
 const DEFAULT_PROTOCOL = "2025-03-26"; // version assumed when a client sends no MCP-Protocol-Version header (per spec)
 const BASE_HEADERS = {
   "X-Robots-Tag": "noindex, nofollow",
@@ -788,13 +802,45 @@ ${sec}
 const GLAMA_CONNECTOR_CLAIM = { $schema: "https://glama.ai/mcp/schemas/connector.json", claim: "glama_claim_i0alkFuxuIKn096BGRQ7Bv4uc_mo0hg-" };
 const MCP_REGISTRY_AUTH = "v=MCPv1; k=ed25519; p=A4I7vCBzz7q+pQAornapXsGwDn7I3MkAKP6zcQzYkr0=";
 
+// ---------- Rate limiting (free): 60 requests / 60 s per client IP on /mcp and /api/* ----------
+// Layer 1: Workers Rate Limiting binding env.RL (simple 60/60; counted per Cloudflare location).
+// Layer 2: in-isolate fixed window, so the cap still holds if the binding is missing or errors.
+const RL_LIMIT = 60, RL_WINDOW_MS = 60 * 1000, RL_RETRY_AFTER_S = 60, RL_MAX_KEYS = 5000;
+const rlWindows = new Map(); // ip -> { start, count }
+function localLimited(key, now = Date.now()) {
+  let w = rlWindows.get(key);
+  if (!w || now - w.start >= RL_WINDOW_MS) {
+    if (!w && rlWindows.size >= RL_MAX_KEYS) { for (const [k, x] of rlWindows) if (now - x.start >= RL_WINDOW_MS) rlWindows.delete(k); if (rlWindows.size >= RL_MAX_KEYS) rlWindows.clear(); }
+    w = { start: now, count: 0 }; rlWindows.set(key, w);
+  }
+  w.count++;
+  return w.count > RL_LIMIT;
+}
+async function rateLimited(request, env) {
+  const key = request.headers.get("cf-connecting-ip") || "anon";
+  if (localLimited(key)) return true;
+  if (env && env.RL) {
+    try { const { success } = await env.RL.limit({ key }); if (!success) return true; } catch (_) { /* binding error: layer 2 still applies */ }
+  }
+  return false;
+}
+async function rateLimitResponse(request, path) {
+  const headers = { "Retry-After": String(RL_RETRY_AFTER_S), "RateLimit-Policy": `${RL_LIMIT};w=${RL_WINDOW_MS / 1000}` };
+  const message = `Rate limit exceeded: ${RL_LIMIT} requests per minute per IP. Retry after ${RL_RETRY_AFTER_S} seconds.`;
+  if (path === "/mcp") {
+    let id = null;
+    if (request.method === "POST") { try { const b = await readJson(request); if (b && !Array.isArray(b) && (typeof b.id === "string" || typeof b.id === "number")) id = b.id; } catch (_) { /* unknown id */ } }
+    return json({ jsonrpc: "2.0", id, error: { code: -32029, message, data: { error: "rate_limited", http_status: 429, retry_after_seconds: RL_RETRY_AFTER_S, limit: RL_LIMIT, window_seconds: RL_WINDOW_MS / 1000 } } }, 429, headers);
+  }
+  return json({ error: "rate_limited", message, retry_after_seconds: RL_RETRY_AFTER_S }, 429, headers);
+}
+
 async function route(request, env, path, origin) {
   if (request.method === "OPTIONS") return new Response(null, { status: 204, headers: BASE_HEADERS });
   if (path === "/mcp/.well-known/glama.json" && (request.method === "GET" || request.method === "HEAD")) return json(GLAMA_CONNECTOR_CLAIM);
-  if (path === "/mcp" || path.startsWith("/api/")) {
-    if (env && env.RL && request.method === "POST") {
-      try { const { success } = await env.RL.limit({ key: request.headers.get("cf-connecting-ip") || "anon" }); if (!success) return json({ error: "rate_limited", message: "Too many requests. Try again in a minute." }, 429, { "Retry-After": "60" }); } catch (_) { /* fail open */ }
-    }
+  if (path === "/mcp" || path === "/api" || path.startsWith("/api/")) {
+    const limited = await rateLimited(request, env);
+    if (limited) return rateLimitResponse(request, path);
   }
   if (path === "/mcp") return handleMcp(request);
   const allowed = methodsFor(path);

@@ -1,6 +1,6 @@
 ---
 name: donofdebt-portfolio-tools
-description: Use when someone asks about selling or buying charged-off debt portfolios, sale or placement readiness, data tape headers, document or chain-of-title gaps, forward flow vs one-time sales, a debt buyer's buy box, diligence checklists, post-judgment interest, state judgment rules, or collection licensing sources. Calls The Don of Debt's free MCP/API (preview). Aggregate data only, never personal or account-level data.
+description: Use when someone asks about selling or buying charged-off debt portfolios, sale or placement readiness, data tape headers, document or chain-of-title gaps, forward flow vs one-time sales, a debt buyer's buy box, diligence checklists, post-judgment interest, state judgment rules, or collection licensing sources. Calls The Don of Debt's free MCP/API. Aggregate data only, never personal or account-level data.
 ---
 
 # The Don of Debt portfolio tools (free)
